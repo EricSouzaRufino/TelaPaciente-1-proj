@@ -8,34 +8,38 @@
     <link rel="stylesheet" href="telacliente.css">
     <link rel="icon" href="img/logo pv.png">
     <link rel="stylesheet" media="(min-width: 768px)" href="telacliente.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@40,400,0,0" />
     <title>Seu Perfil</title>
 </head>
+<header>
+
+    <div class="nav">
+        <div>
+            <img src="img/logo pv.png" alt="">
+        </div>
+
+        <div>
+            <a href=""><strong>HOME</strong></a>
+        </div>
+
+        <div>
+            <a href=""><strong>QUEM SOMOS</strong></a>
+        </div>
+
+        <div>
+            <a href=""><strong>SERVIÇOS</strong></a>
+        </div>
+
+        <div>
+            <button><a href=""><strong>MEU PERFIL</strong></a></button>
+        </div>
+    </div>
+</header>
 
 <body>
-    <header>
-
-        <div class="nav">
-            <div>
-                <img src="img/logo pv.png" alt="">
-            </div>
-
-            <div>
-                <a href=""><strong>HOME</strong></a>
-            </div>
-
-            <div>
-                <a href=""><strong>QUEM SOMOS</strong></a>
-            </div>
-
-            <div>
-                <a href=""><strong>SERVIÇOS</strong></a>
-            </div>
-
-            <div>
-                <button><a href=""><strong>MEU PERFIL</strong></a></button>
-            </div>
-        </div>
-    </header>
+    
 
     <section class="row-principal">
         <div class="conf-itens">
@@ -53,9 +57,29 @@
     </section>
 
     <section class="row-secundary">
-
-            
+        <div class="first-buttons">
+            <button id="att-cad">EDITAR PERFIL<span class="material-icons md-18">edit</span></button>
+        </div>
+        <div class="second-buttons">
+            <button id="my-appointment">MINHAS CONSULTAS
+                <span class="material-symbols-sharp">clinical_notes</span></button>
+        </div>
     </section>
+
+    <section class="row-third">
+        <div class="conf-appointment">
+            <div class="text-information2">
+                <P id="name-doctor">MEDICO: XXXX</P>
+                <p id="date-appointment">DATA: DD/MM/YYYY</p>
+                <P id="time-appointment">HORARIO: HH/MM</P>
+                <p id="services">SERVIÇOS: ......(>)</p>
+                <button id="button-confirm-appointment">CONFIRMAR A CONSULTA </button>
+            </div>
+        </div>
+    </section>
+    <span class="material-symbols-sharp" id="icon-exit">
+        logout
+        </span>
 </body>
 
 </html>
